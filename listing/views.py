@@ -4,12 +4,12 @@ from django.shortcuts import render
 
 
 def index(request):
-    render(request, 'listing/allListing.html')
+    return render(request, 'listings/allListing.html')
 
 
 def listing(request):
-    render(request, 'listing/listing.html')
+    return render(request, 'listings/listing.html')
 
 
 def search(request):
-    render(request, 'listing/search.html')
+    return render(request, 'listings/search.html')
