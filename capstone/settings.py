@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'contacts.apps.ContactsConfig',
     'account.apps.AccountConfig',
     'pages.apps.PagesConfig',
     'listing.apps.ListingConfig',
@@ -141,3 +142,5 @@ MEDIA_URL = '/media/'
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
+
+
